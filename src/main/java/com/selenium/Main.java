@@ -3,8 +3,10 @@ package com.selenium;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
         System.out.println("Hii");
 
         //setting the path of the chrome driver executable

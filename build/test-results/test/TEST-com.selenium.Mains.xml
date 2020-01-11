@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selenium.Mains" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-11T05:01:54" hostname="fh400" time="61.353">
+  <properties/>
+  <testcase name="Login" classname="com.selenium.Mains" time="61.353"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

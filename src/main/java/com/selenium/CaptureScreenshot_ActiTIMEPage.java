@@ -26,7 +26,7 @@ public class CaptureScreenshot_ActiTIMEPage extends Main {
         System.out.println(date2);
 
         //setting the path of the chrome driver executable
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/home/user/IdeaProjects/Selenium/src/Driver/chromedriver");
 
         //Launch the Chrome browser
         WebDriver driver = new ChromeDriver();

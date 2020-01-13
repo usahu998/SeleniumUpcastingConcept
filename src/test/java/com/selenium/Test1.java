@@ -1,21 +1,12 @@
 package com.selenium;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-import java.io.IOException;
+public class Test1 extends BaseTest{
+    @Test
+    public void testSample() throws InterruptedException {
 
-public class Main {
-    public static void main(String[] args) throws InterruptedException, IOException {
-        System.out.println("Hii");
-
-        //setting the path of the chrome driver executable
-        System.setProperty("webdriver.chrome.driver", "/home/user/IdeaProjects/Selenium/src/Driver/chromedriver");
-
-        //Launch the Chrome browser
-        WebDriver driver = new ChromeDriver();
-
-        //Enter the url
+    //Enter the url
         driver.get("https://www.google.com");
 
         //Get the title of the google page and print it on the console
@@ -32,8 +23,5 @@ public class Main {
 
         //Halt the program execution for 2 seconds
         Thread.sleep(2000);
-
-        // Close the browser
-        driver.close();
     }
 }

@@ -25,14 +25,4 @@ public class Mains extends BaseTest {
         Logout.click();
 
     }
-    @Test
-    public void SignUpForm(){
-
-        WebElement firstName = driver.findElement(By.name("firstname"));
-        firstName.sendKeys("Upendra");
-        WebElement lastName = driver.findElement(By.name("lastname"));
-        lastName.sendKeys("Sahu");
-        WebElement mobileNo = driver.findElement(By.name("reg_email__"));
-        mobileNo.sendKeys("5634365476");
-    }
 }

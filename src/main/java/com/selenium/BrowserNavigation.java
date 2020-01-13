@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class BrowserNavigation {
     public static void main(String[] args) throws InterruptedException {
         //setting the path of the chrome driver executable
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/home/user/IdeaProjects/Selenium/src/Driver/chromedriver");
 
         //Launch the Chrome browser
         WebDriver driver = new ChromeDriver();

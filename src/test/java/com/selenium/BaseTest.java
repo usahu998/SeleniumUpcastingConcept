@@ -12,7 +12,7 @@ public class BaseTest {
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
-        System.setProperty("webdriver.chrome.driver", "/home/user/IdeaProjects/Selenium/src/Driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/home/admin1/SeleniumTesting/SeleniumUpcastingConcept/src/Driver/chromedriver");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
     }

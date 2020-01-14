@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+        <classes>
+            <class name="com.selenium.BrowserNavigation">
+
+            </class>
+            <class name="com.selenium.CaptureScreenshot_ActiTIMEPage">
+
+            </class>
+            <class name="com.selenium.KeyboardMouseOperations">
+
+            </class>
+            <class name="com.selenium.Locators">
+            </class>
+        </classes>
+</suite>
